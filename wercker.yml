@@ -7,7 +7,7 @@ build:
     - script:
         code: |
           echo "USERNAME is $USERNAME"
-          echo "Image is going to be built"
+          echo "Image change happened is going to be built"
     - internal/docker-build:
        image-name: $IMAGE_BASE
        dockerfile: Dockerfile1
